@@ -1,0 +1,156 @@
+body{
+    background-color: rgba(127, 255, 212, 0.831);
+    overflow-x: hidden;
+    margin: 0;                       
+}
+
+.topnavbar{
+    background-color: rgb(57, 122, 126);
+    color: antiquewhite;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.topnavbar a{
+    float: left;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 23px;
+    display: inline;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    font-family: "Lexend", sans-serif;
+    font-style: bold;
+}
+
+.nav:hover{
+    background-color: rgb(0, 140, 255);
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    display: block;
+
+    color: antiquewhite;
+    background-color: rgba(62, 112, 95, 0.963);
+
+    border-radius: 30px;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lexend", sans-serif;
+    font-style: bold;
+}
+
+#home h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lexend", sans-serif;
+    font-style: bold;
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.container p{
+    margin: 15px;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    line-height: 125%;
+} 
+
+.container li{
+    margin: 15px;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    line-height: 125%;
+} 
+
+.vidcontainer{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+}
+
+.vidcontainer iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#aboutme{
+    background-color: rgb(19, 66, 50);
+}
+
+#contact{
+    background-color: rgb(19, 66, 50);
+}
+
+.fa {
+    color: antiquewhite;
+}
+
+.container-contact{
+    width: 50%;
+    height: 175px;
+    margin: auto;
+    display: block;
+
+    color: antiquewhite;
+
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+}
+
+.container-contact .linkspan{
+    font-size: 72px;
+}
+
+.container-contact .linkspan1{
+    position: absolute;
+    left: 20%;
+}
+
+.container-contact .linkspan2{
+    position: absolute;
+    left: 45%;
+}
+
+.container-contact .linkspan3{
+    position: absolute;
+    left: 70%;
+}
+
+.fa:hover{
+    color: rgb(57, 122, 126);
+}
+
+.footbar{
+    background-color: rgb(57, 122, 126);
+    color :antiquewhite;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    line-height: 0.5em;
+}
